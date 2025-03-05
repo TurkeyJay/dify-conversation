@@ -11,7 +11,7 @@ import { getLastAnswer, isValidGeneratedAnswer } from '../utils'
 import { useChatWithHistoryContext } from './context'
 import Header from './header'
 import ConfigPanel from './config-panel'
-// TODO mars
+
 import { fetchSuggestedQuestions, getUrl, stopChatMessageResponding } from '@/service/index'
 import AnswerIcon from '@/app/components/base/answer-icon'
 

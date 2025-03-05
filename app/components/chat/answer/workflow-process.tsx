@@ -10,7 +10,7 @@ import {
 } from '@remixicon/react'
 import { useTranslation } from 'react-i18next'
 import type { ChatItem, WorkflowProcess } from '../../types'
-// TODO MARS
+
 // import TracingPanel from '@/app/components/workflow/run/tracing-panel'
 import cn from '@/utils/classnames'
 import { CheckCircle } from '@/app/components/base/icons/src/vender/solid/general'

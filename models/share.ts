@@ -12,6 +12,7 @@ export type ConversationItem = {
 
 export type SiteInfo = {
   title: string
+  hide_sidebar?: boolean
   chat_color_theme?: string
   chat_color_theme_inverted?: boolean
   icon_type?: AppIconType | null

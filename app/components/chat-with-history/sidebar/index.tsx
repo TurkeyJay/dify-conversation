@@ -64,14 +64,18 @@ const Sidebar = () => {
       {
         !isMobile && (
           <div className='shrink-0 flex p-4'>
-            <AppIcon
-              className='mr-3'
-              size='small'
-              iconType={appData?.site.icon_type}
-              icon={appData?.site.icon}
-              background={appData?.site.icon_background}
-              imageUrl={appData?.site.icon_url}
-            />
+            {
+              appData?.site.icon_type && (
+                <AppIcon
+                  className='mr-3'
+                  size='small'
+                  iconType={appData?.site.icon_type}
+                  icon={appData?.site.icon}
+                  background={appData?.site.icon_background}
+                  imageUrl={appData?.site.icon_url}
+                />
+              )
+            }
             <div className='py-1 text-base font-semibold text-gray-800'>
               {appData?.site.title}
             </div>

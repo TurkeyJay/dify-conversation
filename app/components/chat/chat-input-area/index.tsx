@@ -25,7 +25,7 @@ import {
 } from '@/app/components/base/file-uploader/store'
 import VoiceInput from '@/app/components/base/voice-input'
 import { useToastContext } from '@/app/components/base/toast'
-// TODO mars
+
 // import FeatureBar from '@/app/components/base/features/new-feature-panel/feature-bar'
 import type { FileUpload } from '@/app/components/base/features/types'
 import { TransferMethod } from '@/types/app'

@@ -9,10 +9,8 @@ import TracingPanel from './tracing'
 import cn from '@/utils/classnames'
 import { ToastContext } from '@/app/components/base/toast'
 import Loading from '@/app/components/base/loading'
-// import { fetchAgentLogDetail } from '@/service/log'
-// TODO
+
 const fetchAgentLogDetail = () => {
-  console.log('TODO MARS')
 }
 
 import type { AgentIteration, AgentLogDetailResponse } from '@/models/log'

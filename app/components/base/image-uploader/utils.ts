@@ -21,7 +21,7 @@ export const imageUpload: ImageUpload = ({
       onProgressCallback(percent)
     }
   }
-  // TODO mars
+  
   upload({
     xhr: new XMLHttpRequest(),
     data: formData,

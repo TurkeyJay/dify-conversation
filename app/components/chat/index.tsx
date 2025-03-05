@@ -268,7 +268,6 @@ const Chat: FC<ChatProps> = ({
                 </div>
               )
             }
-            {/* TODO mars */}
             {/* {
               hasTryToAsk && (
                 <TryToAsk

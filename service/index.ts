@@ -66,7 +66,6 @@ export const generationConversationName = async (id: string) => {
 export const uploadRemoteFileInfo = (url: string) => {
   return post('/file-upload/remote', { body: { url } })
 }
-// TODO mars
 export const fetchSuggestedQuestions = async (messageId: string) => {
   return get(`/messages/${messageId}/suggested`)
 }

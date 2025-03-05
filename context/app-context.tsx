@@ -4,8 +4,6 @@ import { createRef, useCallback, useEffect, useMemo, useRef, useState } from 're
 import useSWR from 'swr'
 import { createContext, useContext, useContextSelector } from 'use-context-selector'
 import type { FC, ReactNode } from 'react'
-// TODO MARS
-// import { fetchAppList } from '@/service/apps'
 const fetchAppList = () => {
   console.log('fetchAppList-----')
 }
@@ -14,8 +12,6 @@ import { fetchCurrentWorkspace, fetchLanggeniusVersion, fetchUserProfile, getSys
 import type { App } from '@/types/app'
 import { Theme } from '@/types/app'
 import type { ICurrentWorkspace, LangGeniusVersionResponse, UserProfileResponse } from '@/models/common'
-// TODO MARS
-// import MaintenanceNotice from '@/app/components/header/maintenance-notice'
 import type { SystemFeatures } from '@/types/feature'
 import { defaultSystemFeatures } from '@/types/feature'
 

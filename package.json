@@ -2,9 +2,8 @@
   "name": "webapp-conversation",
   "version": "1.0.0",
   "private": true,
-  "author": "Mars",
+  "author": "",
   "contributors": [
-    "<Mars> <<3586649@qq.com>> (https://github.com/marsDes)"
   ],
   "scripts": {
     "dev": "next dev",
@@ -102,5 +101,8 @@
     "use-context-selector": "^2.0.0",
     "uuid": "^11.0.5",
     "zustand": "^5.0.3"
+  },
+  "volta": {
+    "node": "20.0.0"
   }
 }

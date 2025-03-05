@@ -19,7 +19,6 @@ import Loading from '@/app/components/base/loading'
 import useBreakpoints, { MediaType } from '@/hooks/use-breakpoints'
 // import { checkOrSetAccessToken } from '@/app/components/share/utils'
 export const checkOrSetAccessToken = async () => {
-  console.log('checkOrSetAccessToken-mars')
   const sharedToken = globalThis.location.pathname.split('/').slice(-1)[0]
   const accessToken = localStorage.getItem('token') || JSON.stringify({ [sharedToken]: '' })
   let accessTokenJson = { [sharedToken]: '' }

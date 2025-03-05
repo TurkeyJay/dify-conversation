@@ -2,11 +2,11 @@
 import type { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 import StatusPanel from '@/app/components/workflow/run/status'
-// TODO mars
+
 // import CodeEditor from '@/app/components/workflow/nodes/_base/components/editor/code-editor'
 // import { CodeLanguage } from '@/app/components/workflow/nodes/code/types'
 import useTimestamp from '@/hooks/use-timestamp'
-// TODO MARS
+
 type ResultPanelProps = {
   status: string
   elapsed_time?: number
